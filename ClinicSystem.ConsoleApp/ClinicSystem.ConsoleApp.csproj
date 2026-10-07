@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClinicSystem.Core\ClinicSystem.Core.csproj" />
+    <ProjectReference Include="..\ClinicSystem.Infrastructure\ClinicSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\ClinicSystem.Services\ClinicSystem.Services.csproj" />
+  </ItemGroup>
+
 </Project>
