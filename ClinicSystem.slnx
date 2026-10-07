@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ClinicSystem.ConsoleApp/ClinicSystem.ConsoleApp.csproj" />
+  <Project Path="ClinicSystem.Core/ClinicSystem.Core.csproj" />
+  <Project Path="ClinicSystem.Infrastructure/ClinicSystem.Infrastructure.csproj" />
+  <Project Path="ClinicSystem.Services/ClinicSystem.Services.csproj" />
+</Solution>
