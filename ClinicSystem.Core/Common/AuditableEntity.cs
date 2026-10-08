@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClinicSystem.Core
+namespace ClinicSystem.Core.Common
 {
     public abstract class AuditableEntity : BaseEntity
     {

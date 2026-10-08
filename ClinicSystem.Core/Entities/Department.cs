@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ClinicSystem.Core.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClinicSystem.Core
+namespace ClinicSystem.Core.Entities
 {
     public class Department : AuditableEntity
     {

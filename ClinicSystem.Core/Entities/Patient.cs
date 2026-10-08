@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ClinicSystem.Core.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClinicSystem.Core
+namespace ClinicSystem.Core.Entities
 {
     public class Patient : Person
     {
@@ -16,5 +17,7 @@ namespace ClinicSystem.Core
         public ICollection<MedicalRecord> MedicalRecords { get; set; } = new List<MedicalRecord>();
 
         public ICollection<Invoice> Invoices { get; set; } = new List<Invoice>();
+
+        public ICollection<Prescription> Prescriptions { get; set; } = new List<Prescription>();
     }
 }
