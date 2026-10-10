@@ -10,6 +10,7 @@ namespace ClinicSystem.Core.Entities
         // Foreign Key
         public int PatientId { get; set; }
 
+
         // Navigation Property
         public Patient Patient { get; set; } = null!;
 
@@ -17,8 +18,10 @@ namespace ClinicSystem.Core.Entities
         public string PaymentStatus { get; set; } = "Unpaid"; // Unpaid, Paid, Cancelled
         public DateTime IssueDate { get; set; } = DateTime.UtcNow;
         public DateTime DueDate { get; set; }
+        public decimal Balance { get; set; }
 
-        public ICollection<PaymentTransaction> Transactions { get; set; } = new List<PaymentTransaction>();
+
+        public ICollection<PaymentTransaction> PaymentTransactions { get; set; } = new List<PaymentTransaction>();
 
     }
 }
