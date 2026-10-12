@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ClinicSystem.Core.Interfaces;
 
 namespace ClinicSystem.Infrastructure.Repositories
 {

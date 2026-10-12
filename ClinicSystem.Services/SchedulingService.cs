@@ -3,6 +3,7 @@ using ClinicSystem.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using ClinicSystem.Core.Interfaces;
 
 namespace ClinicSystem.Services
 {
