@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClinicSystem.Infrastructure.Repositories
+namespace ClinicSystem.Core.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
